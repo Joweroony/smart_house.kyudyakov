@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/colorPrimaryWhite"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -13,8 +13,10 @@
         android:layout_height="950dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502"
         app:srcCompat="@drawable/fon" />
 
     <ImageView
@@ -73,35 +75,34 @@
         android:background="@drawable/buttons_corners"
         android:backgroundTint="#5E55A0"
         android:text="Enter Your House"
+        android:textColor="#FEFEFE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <Button
         android:id="@+id/new_resident"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="90dp"
         android:background="@drawable/buttons_corners"
         android:backgroundTint="#2A2A37"
         android:onClick="start_new_resident"
         android:text="New Resident"
+        android:textColor="#FEFEFE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enter_your_house"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <EditText
         android:id="@+id/e_mail"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginBottom="135dp"
         android:backgroundTint="#FEFEFE"
         android:ems="10"
         android:inputType="textEmailAddress"
@@ -112,7 +113,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.682" />
 
     <EditText
         android:id="@+id/password"
