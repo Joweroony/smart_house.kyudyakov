@@ -23,10 +23,10 @@
         android:id="@+id/your_house_text"
         android:layout_width="141dp"
         android:layout_height="34dp"
-        android:text="@string/your_house"
-        android:textStyle="bold"
+        android:text="Your Home"
         android:textColor="#FEFEFE"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
@@ -35,17 +35,59 @@
         app:layout_constraintVertical_bias="0.061" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/addrooms_btn"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:background="@drawable/plusbutton_homepage"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_top"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintHorizontal_bias="0.957"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.924"
+        app:layout_constraintVertical_bias="0.921"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/room_btn"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:drawableBottom="@drawable/button_room_decorate"
+        android:fallbackLineSpacing="false"
+        android:text="ROOM"
+        android:textColor="#FEFEFE"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/living_room_btn"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:background="@drawable/living_room_btn_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <Button
+        android:id="@+id/living_room_btn2"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:background="@drawable/living_room_btn_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
