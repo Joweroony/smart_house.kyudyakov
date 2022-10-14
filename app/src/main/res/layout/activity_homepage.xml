@@ -71,23 +71,41 @@
         android:layout_width="175dp"
         android:layout_height="140dp"
         android:background="@drawable/living_room_btn_style"
+        android:text="Living Room"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintVertical_bias="0.341"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/living_room_btn2"
+        android:id="@+id/bathroom_btn"
         android:layout_width="175dp"
         android:layout_height="140dp"
         android:background="@drawable/living_room_btn_style"
+        android:text="Bathroom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/kitchen_btn"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:background="@drawable/living_room_btn_style"
+        android:text="Kitchen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.932"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintVertical_bias="0.341"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
