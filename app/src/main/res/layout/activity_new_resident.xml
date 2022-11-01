@@ -68,7 +68,7 @@
         app:srcCompat="@drawable/smart_house_logo2" />
 
     <Button
-        android:id="@+id/enter_your_house"
+        android:id="@+id/enter_your_house_btn"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:background="@drawable/buttons_corners"

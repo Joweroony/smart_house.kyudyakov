@@ -2,6 +2,7 @@ package com.example.smart_housekyudyakov;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -17,4 +18,11 @@ public class new_resident extends AppCompatActivity {
         setContentView(R.layout.enter_your_house);
         setContentView(R.layout.activity_new_resident);
     }
+
+    public void startActivityHomepage(View v) {
+        Intent intent = new Intent(this, homepage.class);
+        startActivity(intent);
+    }
+
+
 }
