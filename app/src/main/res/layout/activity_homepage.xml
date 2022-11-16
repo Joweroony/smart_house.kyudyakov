@@ -56,7 +56,7 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:background="@drawable/plusbutton_homepage"
-            android:onClick="AddNewRoom"
+            android:onClick="BackToActivityHomepage"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.957"

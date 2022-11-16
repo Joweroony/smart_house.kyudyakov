@@ -73,6 +73,7 @@
         android:layout_height="60dp"
         android:background="@drawable/buttons_corners"
         android:backgroundTint="#5E55A0"
+        android:onClick="startActivityHomepage"
         android:text="Enter Your House"
         android:textColor="#FEFEFE"
         app:layout_constraintBottom_toBottomOf="parent"
